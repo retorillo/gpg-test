@@ -6,7 +6,12 @@
 git commit -S -m commit message
 ```
 
-https://docs.github.com/en/github/authenticating-to-github/signing-commits
+or
+
+```
+git config --global commit.gpgsign true
+git commit -m commit message
+```
 
 ## For Windows Environment
 
